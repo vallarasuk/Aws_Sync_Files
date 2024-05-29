@@ -1,0 +1,193 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.fs-input {
+    padding: 4px 8px;
+    min-height: 34px;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.fs-banner-field-pair {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.fs-add-button {
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid #2271b1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #2271b1;
+    background: #f6f7f7;
+}
+
+.fs-save-button-banner-data,
+.fs-save-button-about,
+.fs-save-button-visit_us,
+.fs-save-button-project,
+.fs-save-button-gallery,
+.fs-save-button-testimonials,
+.fs-save-button-banner-title,
+.fs-save-button-supplemental-training,
+.fs-save-button-event,
+.fs-save-button-training,
+.fs-save-button-equipment,
+.fs-save-button-logger,
+.fs-save-button-logo,
+.fs-save-button-research,
+.fs-save-button-documentation,
+.fs-save-button-photo-gallery,
+.fs-save-button-species {
+    background: #f6f7f7;
+    color: #2271b1;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #2271b1;
+}
+
+.fs-banner-field-data {
+    width: 77%;
+}
+
+.fs-banner-field-preview-image {
+    width: 30%;
+    max-height: 100%;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+}
+
+.fs-banner-field-preview-image img {
+    border-radius: 8px;
+    max-width: 70%;
+    max-height: 50%;
+}
+
+.fs-desktop-image {
+    margin: 5px 0;
+}
+
+.fs-mobile-image {
+    margin: 5px 0;
+}
+
+.fs-banner-field-preview-image {
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fs-banner-image-data {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50% !important;
+}
+
+.width-50 .fs-preview-desktop-image,
+.width-50 .fs-preview-mobile-image {
+    text-align: center;
+}
+
+.fs-project-field-pair.card,
+.fs-testimonials-field-pair.card,
+.fs-banner-data-field-pair.card,
+.card.fs-training-field-pair,
+.fs-logger-field-pair.card,
+.fs-logo-field-pair.card,
+.fs-research-field-pair.card,
+.fs-species-field-pair.card {
+    min-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.fs-project-header,
+.fs-testimonials-header,
+.fs-banner-data-header,
+.fs-training-header,
+.fs-logger-header,
+.fs-logo-header,
+.fs-research-header,
+.fs-species-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fs-about-description-input,
+.fs-supplemental_training-description-input,
+.fs-event-description-input,
+.fs-equipment-description-input,
+.fs-research_opportunity-description-input,
+.fs-documentation-description-input {
+    padding: 0px 8px;
+    min-height: 34px;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.postbox .inside {
+    line-height: 1;
+}
+
+.fs-project-field-pair.card,
+.fs-banner-field-pair.card,
+.fs-gallery-field.card,
+.fs-testimonials-field-pair.card,
+.fs-banner-data-field-pair.card,
+.fs-training-topics-field-pair.card,
+.card.fs-training-field-pair,
+.fs-logger-field-pair.card,
+.fs-logo-field-pair.card,
+.fs-research-field-pair.card,
+.fs-species-field-pair.card {
+    padding: 10px !important;
+}
+
+.fs-banner-flex-content {
+    display: flex;
+    align-items: center;
+}
+
+.fs-gallery-field.card {
+    min-width: 100% !important;
+    margin-top: 5px !important;
+}
+
+.fs-remove-button {
+    background: none;
+    padding: 10px;
+    border: 1px solid;
+    color: #b32d2e;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.fs-preview-desktop-image img,
+.fs-preview-mobile-image img {
+    max-height: 100%;
+    max-width: 90%;
+}
+
+#gallery-form img,
+#visit_us-form img {
+    height: 170px !important;
+    border-radius: 8px;
+}
+
+.width-50 .fs-preview-desktop-image {
+    margin-bottom: 10px;
+}
